@@ -4,6 +4,7 @@ var url = require('url')
 const hostname = "127.0.0.1";
 const port = 8000;
 
+// new code
 const path = require("path");
 const Koa = require("koa");
 const serve = require("koa-static");
@@ -41,6 +42,8 @@ router.post("/upload-single-file", upload.single("file"), (ctx) => {
 app.use(cors());
 app.use(router.routes()).use(router.allowedMethods());
 app.use(serve(UPLOAD_DIR));
+// end of new code but i changed server.listen() to app.listen()
+
 
 
 // Create HTTP server
