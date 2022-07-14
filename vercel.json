@@ -1,6 +1,6 @@
 {
-   "version": 1,
-   "name": "rhypple",
+   "version": 2,
+   "name": "rhypplee",
    "builds": [
       { "src": "app.js", "use": "@vercel/node" }
    ],
