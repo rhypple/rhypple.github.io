@@ -1,0 +1,10 @@
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold;
+    text-align:center;
+}
+
+html {
+    width:90%;
+    margin:auto;
+}
