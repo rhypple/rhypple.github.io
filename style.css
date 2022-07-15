@@ -8,3 +8,9 @@ html {
     width:90%;
     margin:auto;
 }
+
+#uploadButton {
+    display:block;
+    background:pink;
+    border:none;
+}
